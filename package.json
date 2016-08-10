@@ -1,0 +1,36 @@
+{
+  "name": "naivedux",
+  "version": "1.0.1",
+  "description": "Naive [redux](https://github.com/reactjs/redux) clone",
+  "main": "lib/naivedux.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepublish": "rm -r lib && npm run build",
+    "test": "mocha"
+  },
+  "author": "Jo Maxx Blake <jo.maxx.blake@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "mocha": "^3.0.2",
+    "rollup": "^0.34.7",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-watch": "^2.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomaxx/naivedux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jomaxx/naivedux/issues"
+  },
+  "homepage": "https://github.com/jomaxx/naivedux#readme"
+}
