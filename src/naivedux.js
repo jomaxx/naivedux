@@ -5,7 +5,7 @@ export function Store(reducer, initialState) {
   this.getState = () => state;
 
   this.dispatch = (action) => {
-    if (typeof action === 'function') return action(this.dispatch);
+    if (typeof action === 'function') return action(this.dispatch, this.getState);
     state = reducer(state, action);
     listeners.forEach(listener => listener());
     return action;
