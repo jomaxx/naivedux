@@ -1,6 +1,6 @@
 {
   "name": "naivedux",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Naive [redux](https://github.com/reactjs/redux) clone",
   "main": "lib/naivedux.js",
   "scripts": {
